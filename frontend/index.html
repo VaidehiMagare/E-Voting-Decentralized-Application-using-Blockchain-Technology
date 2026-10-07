@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>VoteChain | E-Voting</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- HEADER -->
+
+    <header class="header">
+
+        <div class="logo">
+
+            <div class="logo-icon">
+                🗳️
+            </div>
+
+            <h2>
+                Vote<span>Chain</span>
+            </h2>
+
+        </div>
+
+
+        <div class="network">
+            ⛓ Hardhat Local
+        </div>
+
+    </header>
+
+
+
+    <!-- MAIN -->
+
+    <main class="container">
+
+
+        <!-- HERO -->
+
+        <section class="hero">
+
+            <h1>
+                Decentralized <span>E-Voting</span>
+            </h1>
+
+            <p>
+                A secure blockchain-based voting platform
+                where every vote is recorded transparently.
+            </p>
+
+        </section>
+
+
+
+        <!-- WALLET -->
+
+        <section class="wallet">
+
+            <div>
+
+                <h3>Wallet</h3>
+
+                <p id="walletAddress">
+                    Wallet not connected
+                </p>
+
+            </div>
+
+
+            <button
+                class="yellow-btn"
+                onclick="connectWallet()">
+
+                Connect Wallet
+
+            </button>
+
+        </section>
+
+
+
+        <!-- ADMIN -->
+
+        <section
+            id="adminPanel"
+            class="section">
+
+
+            <div class="section-title">
+
+                <div>
+
+                    <h2>
+                        ⚙️ Admin Panel
+                    </h2>
+
+                    <p>
+                        Manage the election
+                    </p>
+
+                </div>
+
+                <span class="status">
+                    ● Admin
+                </span>
+
+            </div>
+
+
+            <div class="admin-row">
+
+                <input
+                    id="candidateName"
+                    type="text"
+                    placeholder="Enter party name">
+
+
+                <button
+                    class="yellow-btn"
+                    onclick="addCandidate()">
+
+                    + Add Party
+
+                </button>
+
+            </div>
+
+
+            <div class="admin-buttons">
+
+                <button
+                    class="blue-btn"
+                    onclick="startElection()">
+
+                    ▶ Start Election
+
+                </button>
+
+
+                <button
+                    class="red-btn"
+                    onclick="endElection()">
+
+                    ■ End Election
+
+                </button>
+
+            </div>
+
+
+            <p
+                id="adminMessage"
+                class="message">
+            </p>
+
+        </section>
+
+
+
+        <!-- VOTING -->
+
+        <section class="section">
+
+
+            <div class="section-title">
+
+                <div>
+
+                    <h2>
+                        🗳️ Cast Your Vote
+                    </h2>
+
+                    <p>
+                        Select one party
+                    </p>
+
+                </div>
+
+
+                <span
+                    id="electionStatus"
+                    class="status">
+
+                    ● Not Started
+
+                </span>
+
+            </div>
+
+
+            <button
+                class="blue-btn refresh"
+                onclick="loadCandidates()">
+
+                ↻ Refresh Parties
+
+            </button>
+
+
+            <!-- PARTIES -->
+
+            <div
+                id="candidatesList"
+                class="party-list">
+            </div>
+
+
+            <!-- SELECTED -->
+
+            <div
+                id="selectedCandidate"
+                class="selected">
+            </div>
+
+
+            <!-- CONFIRM -->
+
+            <button
+                id="confirmVoteBtn"
+                class="confirm-btn"
+                onclick="confirmVote()"
+                disabled>
+
+                Confirm Vote
+
+            </button>
+
+
+            <p
+                id="voteMessage"
+                class="message">
+            </p>
+
+        </section>
+
+
+
+        <!-- RESULTS -->
+
+        <section class="section">
+
+
+            <div class="section-title">
+
+                <div>
+
+                    <h2>
+                        🏆 Election Results
+                    </h2>
+
+                    <p>
+                        Results recorded on the blockchain
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <button
+                class="blue-btn refresh"
+                onclick="loadResults()">
+
+                ↻ View Results
+
+            </button>
+
+
+            <div
+                id="results"
+                class="results">
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+
+        VoteChain · Powered by Ethereum Blockchain
+
+    </footer>
+
+
+
+    <!-- ETHERS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/ethers@6.13.5/dist/ethers.umd.min.js"></script>
+
+    <script src="app.js"></script>
+
+
+</body>
+
+</html>
