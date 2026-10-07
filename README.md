@@ -81,7 +81,6 @@ Chain ID:
 <img width="959" height="504" alt="Screenshot 2026-10-07 224053" src="https://github.com/user-attachments/assets/ffa35a4e-0798-4e07-8741-3f747e85b716" />
 
 ## TO CAST VOTE WITH METAMASK APPROVAL
-<img width="652" height="481" alt="Screenshot 2026-10-07 224359" src="https://github.com/user-attachments/assets/08c277eb-8184-4eaa-862d-84909c2c98d8" />
 <img width="957" height="502" alt="Screenshot 2026-10-07 224251" src="https://github.com/user-attachments/assets/1f94f44c-236b-4b2e-930d-481f1c16b6be" />
 
 ## SUCCESSFUL VOTING RESULTS
