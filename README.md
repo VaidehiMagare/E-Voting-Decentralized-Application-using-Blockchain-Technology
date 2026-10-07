@@ -1,6 +1,4 @@
-# E-Voting-Decentralized-Application-using-Blockchain-Technology
-
-# Blockchain Based E-Voting DApp
+# Blockchain-based decentralized E-VOTING de-centralized application using Solidity, Hardhat, MetaMask and Ethers.js.
 
 ## Overview
 
