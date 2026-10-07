@@ -1,4 +1,4 @@
-# Blockchain-based decentralized E-VOTING de-centralized application using Solidity, Hardhat, MetaMask and Ethers.js.
+# Blockchain-based E-VOTING de-centralized application using Solidity, Hardhat, MetaMask and Ethers.js.
 
 ## Overview
 
