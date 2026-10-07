@@ -67,17 +67,24 @@ http://127.0.0.1:8545
 Chain ID:
 31337
 
+<img width="959" height="503" alt="Screenshot 2026-10-07 224040" src="https://github.com/user-attachments/assets/50a9bafd-4397-424e-904c-560e49e91f83" />
+
 <img width="878" height="333" alt="image" src="https://github.com/user-attachments/assets/797d6c37-be32-4e51-ab06-c16e4b4acb3a" />
 
 ## METAMASK WALLET
 <img width="520" height="410" alt="Screenshot 2026-10-04 200012" src="https://github.com/user-attachments/assets/dc556cb0-928f-4cf1-b2d3-a6e292da82ea" />
 
 ## ADMIN PANEL
-<img width="843" height="204" alt="image" src="https://github.com/user-attachments/assets/61007606-9884-4789-91dc-7a171683837f" />
+<img width="958" height="503" alt="Screenshot 2026-10-07 224111" src="https://github.com/user-attachments/assets/e6c3b30a-5fc3-4048-b4d4-c0d626d1a3a8" />
 
-## CANDIDATES
-<img width="851" height="329" alt="image" src="https://github.com/user-attachments/assets/f7b15639-795b-4449-ad9a-6954c8c557dd" />
+## CANDIDATE PARTIES
+<img width="959" height="504" alt="Screenshot 2026-10-07 224053" src="https://github.com/user-attachments/assets/ffa35a4e-0798-4e07-8741-3f747e85b716" />
+
+## TO CAST VOTE WITH METAMASK APPROVAL
+<img width="652" height="481" alt="Screenshot 2026-10-07 224359" src="https://github.com/user-attachments/assets/08c277eb-8184-4eaa-862d-84909c2c98d8" />
+<img width="957" height="502" alt="Screenshot 2026-10-07 224251" src="https://github.com/user-attachments/assets/1f94f44c-236b-4b2e-930d-481f1c16b6be" />
 
 ## SUCCESSFUL VOTING RESULTS
-<img width="840" height="315" alt="image" src="https://github.com/user-attachments/assets/2cb58bd8-d163-4b94-ac2c-58eb661801e4" />
+<img width="652" height="481" alt="Screenshot 2026-10-07 224359" src="https://github.com/user-attachments/assets/50b4301d-99ad-4329-b881-cfcb69cc2865" />
+
 
